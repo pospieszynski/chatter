@@ -7,13 +7,19 @@
         <meta name="description" content="Simple chat application">
         <meta name="author" content="SitePoint">
         <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     </head>
     <body>
-        <div class="chat">
-            <input type="text" class="name" placeholder="Enter your nickname..">
-            <div class="messages"></div>
-            <textarea placeholder="Type your message"></textarea>
-            <div class="status">Status: <span>Idle</span></div>
+        <div class="wrapper">
+            <div class="header">Let's talk</div>
+            <div class="chat">
+                <input type="text" class="name" placeholder="Enter your nickname..">
+                <div class="messages">
+                    <div class="message-partial"></div>
+                </div>
+                    <textarea class="input-message" placeholder="Type your message"></textarea>
+                <div class="status">Status: <span>Idle</span></div>
+            </div>
         </div>
     </body>
 </html>

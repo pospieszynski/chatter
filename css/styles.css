@@ -1,1 +1,83 @@
+body{
+    background-image: url("../img/stardust.png");
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.wrapper{
+    padding: 20px;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px
+    background-color:rgba(0, 22, 0, 0.5);
+}
+.chat{
+    width:  181px;
+}
 
+.messages{
+    overflow: auto;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.header{
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.input-message{
+    /*border: none;*/
+    border: 1px ridge;
+    background-color: inherit;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.name{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 3px;
+    margin: 10px,10px;
+    border: 1px ridge;
+    background-color: inherit;
+}
+.messages::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.messages::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.messages::-webkit-scrollbar-thumb
+{
+    background-color: #AAA;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg,
+                                              rgba(0, 0, 0, .2) 25%,
+                                              transparent 25%,
+                                              transparent 50%,
+                                              rgba(0, 0, 0, .2) 50%,
+                                              rgba(0, 0, 0, .2) 75%,
+                                              transparent 75%,
+                                              transparent)
+}
+
+input, select, textarea{
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+}
